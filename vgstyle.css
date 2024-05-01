@@ -1,0 +1,81 @@
+*{
+    margin-left: -8px;
+    padding: 1px;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+h2{
+    text-align: center;
+}
+.padre{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 50px;
+    background-color: rgb(168, 168, 168);/* se pone el bk color para captar ambos hijos */
+    flex: 30%;
+    margin-right: 30px;
+    /* hyphens: manual; se usa para designar  */
+    /* align-items: space-evenly;  no he logrado encontrar manera para alinear todo sin tanta vaina*/ 
+}
+.hijo1{
+    flex: 30%;
+} 
+img{
+    align-items: stretch;
+    width: 100%;
+}
+p{
+    text-align: center;/* duda sobre el espaciado del texto para este sabado */
+    font-size: medium;
+    hyphens: auto;
+}
+.hijo1 img{
+    /* display: flex; */
+    margin: 25px;
+    width: 90%;
+}
+.hijo1 p{
+    text-align: left;
+    margin: 25px;
+    margin-top: -5px;
+    
+}
+.hijo2 p{
+    text-align: left;
+}
+.hijo2{
+    flex: 30%; 
+}
+.hijo2 img{
+    display: flex;
+    margin: 26px;
+    width: 90%;
+    margin-left: -5px
+}
+/* primer intento de contenedor padre, continuación de la pag de noticia*/
+
+.padre2{
+    gap: 40px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    background-color: rgb(180, 61, 61);
+    flex: 30%;
+    margin-top: auto;
+}
+.hijo1a img{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+}
+.hijo1a{
+    flex: 65%;
+    padding: 20px;
+}
+
+
+
